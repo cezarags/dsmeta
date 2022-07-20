@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DevjrApplicationKt" type="JetRunConfigurationType" nameIsGenerated="true">
+    <envs>
+      <env name="TWILIO_SID" value="ACec0fb67f0e17b3b9af510b60609d32ae" />
+      <env name="TWILIO_KEY" value="5313555b522dbba5d352715695c550fc" />
+      <env name="TWILIO_PHONE_FROM" value="+19705404372" />
+      <env name="TWILIO_PHONE_TO" value="5511959481836" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="br.com.devjr.DevjrApplicationKt" />
+    <module name="Backend" />
+    <shortenClasspath name="NONE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
