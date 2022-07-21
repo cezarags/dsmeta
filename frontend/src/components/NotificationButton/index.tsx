@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import icon from '../../assets/img/Notificationicon.svg'
+import icon from '../../assets/img/notification.svg'
 import { BASE_URL } from '../../utils/request';
 import './styles.css'
 
