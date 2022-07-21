@@ -21,10 +21,12 @@ class saleServiceImp(
         when (minDate.equals(" ") && maxDate.equals(" ")) {
             true -> min = LocalDate.now().minusDays(365)
             true -> max = LocalDate.now()
-            false -> min = LocalDate.parse(minDate)
-            false -> max = LocalDate.parse(maxDate)
             // else -> LocalDate.now()// TODO adicionar um exception customizada.
 
+            else -> Exception()
+        }.also {
+            min = LocalDate.parse(minDate)
+            max = LocalDate.parse(maxDate)
         }
 
         return saleRepository.findSales(min, max, pageable)
